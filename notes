@@ -1,0 +1,10 @@
+ 
+                    let par = document.querySelector('.href'); 
+                    var aTag = document.createElement('a');
+                   
+                    aTag.setAttribute('href',"https://www.google.com/search?q=buy+" + predictions[n].class + "&biw=1440&bih=789&tbm=shop");
+                    
+                    aTag.setAttribute("class", "link button")
+                    
+                    par.appendChild(aTag);
+                    
